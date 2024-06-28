@@ -1,0 +1,87 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-box {
+  width: 500px;
+  /* Adjust width as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  transition: ease-in 750ms;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.signup-box:hover{
+  transform: scaleX(1.05) scaleY(1.05);
+}
+.signup-box h2 {
+  text-align: center;
+  font-size: 24px;
+  /* Increase font size */
+  font-weight: bold;
+  /* Make the heading bold */
+  margin-bottom: 20px;
+
+  /* Add margin at the bottom */
+}
+
+.signup-box form {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-box input {
+  border: 5px ;
+  margin: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  /* Make all inputs take up 100% width */
+}
+
+#signup-btn{
+  margin: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgb(1, 19, 40);
+  color: white;
+  width: 100%;
+}
+#signup-btn:hover{
+  color: orange;
+}
+
+
+
+.signup-box input.invalid {
+  border-color: red;
+}
+
+.signup-box .password-field {
+  position: relative;
+}
+
+.signup-box .password-field .eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.signup-box a {
+  font-weight:bold;
+  color: rgb(1, 19, 40);
+  /* Make the login link blue */
+}
+.signup-box a:hover{
+  color: orange;
+}
+.text-span{
+  color: orange;
+}

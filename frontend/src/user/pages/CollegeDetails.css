@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #0c4278;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title {
+    margin: 0;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+.footer {
+    background-color: #0c4278;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0c4278;
+    color: white;
+}
+
+/* Add blue and white colors to table rows */
+table tr:nth-of-type(odd) {
+    background-color: #0c4278;
+    /* Blue background for odd rows */
+    color: white;
+}
+
+table tr:nth-of-type(even) {
+    background-color: white;
+    /* White background for even rows */
+    color: black;
+}

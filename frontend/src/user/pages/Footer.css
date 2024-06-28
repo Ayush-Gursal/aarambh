@@ -1,0 +1,65 @@
+/* Footer styles */
+/* Homepage.css */
+/* .homepage {
+  min-height: calc(100vh - 50px); 
+  position: relative; 
+  padding-bottom: 50px; 
+} */
+
+/* .main-content {
+  flex: 1; 
+} */
+
+/* .footer {
+  background-color: #0c4278; 
+  padding: 1rem;
+  display: flex;
+  color: #fff;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+} */
+/* 
+.footer-section {
+  flex: 1;
+  padding: 1rem;
+  margin: 0 1rem;
+  text-align: center;
+} */
+
+/* .footer-section h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+} */
+
+/* .social-icons img {
+  margin: 0.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: transform 0.3s ease;
+} */
+
+/* .social-icons img:hover {
+  transform: scale(1.1);
+} */
+
+/* .logo-icon {
+  max-width: 6rem;
+  max-height: 3rem;
+} */
+
+/* Media Queries */
+/* @media only screen and (max-width: 48rem) {
+  .footer-section {
+   
+    margin: 1rem 0;
+  }
+} */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* Additional styles for the footer */
+}

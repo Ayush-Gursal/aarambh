@@ -1,0 +1,54 @@
+
+.header {
+    background-color: rgb(1, 19, 40);
+    
+      color: #fff; /* Text color */
+     
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    
+    }
+    #header{
+      background-color: rgb(1, 19, 40);
+      border-radius: 0;
+    }
+    .header img {
+      padding: 5px;
+      border-radius: 25px;
+      width: 50px; /* Adjust image width as needed */
+      height: 50px; /* Adjust image height as needed */
+    }
+    .logo{
+      padding: 10px;
+      margin-left: 15px;
+    }
+    .navigation ul {
+      font-size: 25px;
+     
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+    }
+    
+    .navigation ul li {
+      margin-right: 50px; 
+    }
+    
+    .navigation ul li a {
+      color: #fff; 
+      text-decoration: none;
+    }
+    
+    .navigation ul li a:hover {
+      color: orange;
+    }
+    
+    .greeting-container {
+      display: flex;
+      align-items: center; /* Vertically center the items */
+    }
+    
+    .logout-btn {
+      margin-left: 10px; /* Adjust as needed to add space between the greeting and the button */
+    }

@@ -1,0 +1,154 @@
+.abt-text{
+    color: orange;
+    
+}
+#heading-abt{
+    text-align: center;
+  font-size: 5.5rem;
+  padding: 1rem;
+  color: rgb(1, 19, 40);
+  font-weight: bold;
+  font-style: Zefani;
+}
+.abt-container {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .about-img {
+    margin-left: 30px; /* Push the image to the right */
+  }
+  .about-img img{
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    opacity: 0;
+    animation: slideBottom 950ms  ease forwards;
+      animation-delay: 700ms;
+  }
+  
+  .abt-text-cont {
+   
+    flex: 1; /* Take remaining space */
+  }
+
+.text-add{
+    color: black;
+    font-weight: bold;
+}
+.about-img{
+    transition: ease-in-out 700ms;
+}
+
+.about-img:hover{
+    transform: scaleX(1.05) scaleY(1.05);
+  }
+
+
+
+  .abt-text-cont {
+    margin-right: 50px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: slideBottom 950ms  ease forwards;
+      animation-delay: 700ms;
+  }
+  .abt-text-cont {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  }
+  
+  .abt-text-cont h2 {
+    margin-top: 15px;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .abt-text-cont p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  
+  .follow-us {
+    margin-top: 20px;
+  }
+  
+  .follow-us h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    color: #333;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons a:hover i,
+  .social-icons a:hover img {
+    transform: scale(1.1);
+  }
+  
+
+#socio{
+    
+    font-size: 38px;
+    color: rgb(1, 19, 40);
+}
+  #socio:hover{
+    
+    color:#e4a810;
+  }
+
+@keyframes slideBottom {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+  
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+  
+  @keyframes slideTop {
+    0% {
+        transform: translateY(0px);
+        opacity: 0;
+    }
+  
+    100% {
+        transform: translateY(30px);
+        opacity: 1;
+    }
+  }

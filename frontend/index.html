@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+   <df-messenger intent="WELCOME" chat-title="Trial1" agent-id="fd5bd585-2a45-4892-8582-865bfccfea6c"
+    language-code="en"></df-messenger>
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <title>Vite + React</title>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script>
+    // Get the current URL path
+    var currentPath = window.location.pathname;
+
+    // Define an array of excluded paths where you don't want to show the chatbot
+    var excludedPaths = ['/', '/login', '/signup'];
+
+    // Function to check if the current path is excluded
+    function isExcludedPath(path) {
+      return excludedPaths.includes(path);
+    }
+
+    // Function to conditionally render the Dialogflow chatbot
+    function renderChatbot() {
+      // Check if the current path is not excluded
+      if (!isExcludedPath(currentPath)) {
+        // Render the Dialogflow chatbot
+        document.write('<df-messenger intent="WELCOME" chat-title="Trial1" agent-id="fd5bd585-2a45-4892-8582-865bfccfea6c" language-code="en"></df-messenger>');
+      }
+    }
+
+    // Call the renderChatbot function
+    renderChatbot();
+  </script>
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html> -->

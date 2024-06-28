@@ -1,0 +1,80 @@
+/*
+  Based on TailwindCSS recommendations,
+  consider using classes instead of the @apply directive
+  @see https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction
+*/
+/* CET.css */
+body {
+    @apply leading-[1.6] m-0 p-0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header container styles */
+.hd {
+    @apply bg-[#0c4278] text-white flex justify-between items-center px-5 py-[30px];
+    /* Blue shade header bar / / Text color / / Adjust padding as needed */
+}
+
+/* Header styles */
+.head {
+    @apply text-center px-0 py-5;
+    /* Add padding to the top and bottom */
+}
+
+.head h1 {
+    @apply text-[2em] text-[white] inline-block m-0 px-5 py-2.5 rounded-[5px] bg-[#0c4278];
+    /* Set text color to white / / Add padding to the title / / Add border radius to the title */
+}
+
+/* Title "MHT-CET" styles */
+.head h1 {
+    /* Set background color of the title to blue */
+}
+
+/* Container styles */
+.cet {
+    @apply max-w-[800px] mx-auto my-0 p-5;
+    /* Center the container / / Set maximum width / / Add space to all sides */
+}
+
+/* Section styles */
+.sec {
+    @apply mt-5;
+    /* Add space at the top */
+}
+
+/* Table styles */
+.tab {
+    @apply w-full mt-2.5 border-collapse;
+}
+
+.tab th,
+.tab td {
+    @apply border p-2 border-solid border-black;
+}
+
+.tab th {
+    @apply bg-[#0c4278];
+}
+
+/* Bold titles */
+.head h1,
+.head h2,
+.sec h2 {
+    @apply font-[bold];
+}
+
+/* styles.css */
+.scroll-button {
+    @apply fixed hidden bg-[#007bff] text-white w-10 h-10 text-2xl cursor-pointer transition-opacity duration-[0.3s] rounded-[50%] border-[none] right-10 bottom-10 hover:opacity-70;
+    /* Adjust the distance from the bottom / / Adjust the distance from the right */
+    outline: none;
+}
+
+.show {
+    @apply block;
+}
+
+.hide {
+    @apply hidden;
+}

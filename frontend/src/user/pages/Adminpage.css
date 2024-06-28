@@ -1,0 +1,226 @@
+/* Header */
+.header {
+    background-color: #0c4278;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation ul li {
+    margin-left: 20px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Search Bar */
+
+ .search-bar {
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+.filter-icon {
+    margin-right: 10px;
+}
+
+/* College List */
+
+.college-list {
+    margin-top: 20px;
+}
+
+.college-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.college-list th,
+.college-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.college-list th {
+    background-color: #004080;
+    color: #fff;
+} 
+
+/* Buttons */
+
+
+.button {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 8px 15px;
+    background-color: #0050ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+/* Announcement Bar */
+
+
+.announcement-bar {
+    background-color: #f0f0f0;
+    color: #000;
+    padding: 10px;
+    overflow: hidden;
+    flex-grow: 1;
+} 
+
+/* Image in Box */
+
+
+.row {
+    display: flex;
+}
+
+.container {
+    flex: 1;
+    padding: 10px;
+    height: 400px;
+    position: relative;
+}
+
+.left-container {
+    background-color: #acb5ba;
+    flex: 2;
+}
+
+.right-container {
+    flex: 1;
+    background-color: #acb5ba;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.button img {
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.left-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}  
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #0c4278;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title {
+    margin: 0;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+.footer {
+    background-color: #0c4278;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0c4278;
+    color: white;
+}
+
+/* Add blue and white colors to table rows */
+table tr:nth-of-type(odd) {
+    background-color: #0c4278; /* Blue background for odd rows */
+     color: white;
+} 
+
+table tr:nth-of-type(even) {
+    background-color: white; /* White background for even rows */
+    color: black; 
+}
